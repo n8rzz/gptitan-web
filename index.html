@@ -23,6 +23,20 @@
         font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       }
     </style>
+    <!-- Begin Mailchimp Signup Form -->
+<!--    <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">-->
+    <style>
+      /*#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}*/
+      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      /* Mailchimp form error validation */
+      #mc_embed_signup div.mce_inline_error {
+        background-color: transparent !important;
+        color: #f42000 !important;
+        margin: 8px 0 4px 0 !important;
+        padding: 5px 10px 5px 0 !important;
+      }
+    </style>
   </head>
 
   <body class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed" style="background-image: url('header.png');">
@@ -69,29 +83,53 @@
             Elevate Your ChatGPT Projects with Google Sheets
           </p>
 
-          <form class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
-            <div class="mb-4">
-              <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
-                Signup for our newsletter
-              </label>
-              <input
-                class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-                id="emailaddress"
-                type="text"
-                placeholder="you@somewhere.com"
-              />
-            </div>
+          <div id="mc_embed_signup" class="validate bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+            <form action="https://gmail.us11.list-manage.com/subscribe/post?u=9ede159e904b479d6b948a9ca&amp;id=23796341d0&amp;f_id=0049a8e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll" class="mb-4">
+                <label class="block text-blue-300 py-2 font-bold mb-2" for="mce-EMAIL">
+                  Signup for our newsletter
+                </label>
+                <div class="mc-field-group mb-2">
+                  <input type="email" value="" name="EMAIL" class="required email shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out" id="mce-EMAIL" required placeholder="you@somewhere.com">
+                  <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                  <div hidden><input type="hidden" name="tags" value="9280594"></div>
+                </div>
+                <div id="mce-responses" class="clear foot">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response mb-2 text-green-400 text-bold" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9ede159e904b479d6b948a9ca_23796341d0" tabindex="-1" value=""></div>
+                <div class="optionalParent">
+                  <div class="clear foot">
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 hover:cursor-pointer ">
+                    <p class="brandingLogo" style="position: absolute; left: -5000px;" aria-hidden="true"><a href="http://eepurl.com/irLH1E" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+          <script type='text/javascript'>
+            (function($) {
+              window.fnames = new Array();
+              window.ftypes = new Array();
+              fnames[0]='EMAIL';
+              ftypes[0]='email';
+              fnames[1]='FNAME';
+              ftypes[1]='text';
+              fnames[2]='LNAME';
+              ftypes[2]='text';
+              fnames[3]='ADDRESS';
+              ftypes[3]='address';
+              fnames[4]='PHONE';
+              ftypes[4]='phone';
+              fnames[5]='BIRTHDAY';
+              ftypes[5]='birthday';
+            }(jQuery));
 
-            <div class="flex items-center justify-between pt-4">
-<!--              <button-->
-<!--                class="bg-gradient-to-r from-blue-400 to-purple-700 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"-->
-<!--                type="button"-->
-<!--              >-->
-              <button type="button" class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
-                Sign Up
-              </button>
-            </div>
-          </form>
+            var $mcj = jQuery.noConflict(true);
+          </script>
+          <!--End mc_embed_signup-->
         </div>
 
         <!--Right Col-->
